@@ -1,0 +1,196 @@
+:root {
+  --main-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #ff6c00;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* ===== COMPONENTS ===== */
+.modal-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.social-links__link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.social-links__link:hover,
+.social-links__link:focus {
+  color: var(--main-color);
+}
+
+.undertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.333;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+  /* color: rgba(157, 164, 189, 0.6); */
+}
+
+.undertitle-dark-theme {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.description-dark-theme {
+  color: #9da4bd;
+}
+
+.secondary-header {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.667;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+/* .secondary-header-dark-theme {
+    color: #ffffff;
+} */
+
+/* ===== END COMPONENTS ===== */
+
+/* ===== HEADER ===== */
+
+.navigation__link,
+.header__phone-number {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.1em;
+  /* color: #ffffff; */
+}
+
+.navigation__link:hover,
+.navigation__link:focus,
+.header__phone-number:hover,
+.header__phone-number:focus {
+  color: var(--main-color);
+}
+
+/* ===== END HEADER ===== */
+
+/* ===== HERO ===== */
+
+.main-header {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.181;
+  letter-spacing: 0.05em;
+  /* color: #ffffff; */
+}
+/* ===== END HERO ===== */
+
+/* ===== ABOUT ===== */
+
+.about__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.857;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+/* ===== END ABOUT ===== */
+
+/* ===== SERVICES ===== */
+.services__list-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* ===== END SERVICES ===== */
+
+/* ===== ADVANTAGES ===== */
+.advantages__number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.357;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.advantages__text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.363;
+  color: #303030;
+}
+
+/* ===== END ADVANTAGES ===== */
+
+/* ===== BARBERS ===== */
+.barbers__name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.389;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+
+.barbers__job-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.357;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+/* ===== END BARBERS ===== */
+
+/* ===== GALLERY ===== */
+
+/* ===== END GALLERY ===== */
+
+/* ===== CONTACTS ===== */
+
+/* .contact .undertitle {
+  color: #ffffff;
+} */
+
+.address__link,
+.contact__hours {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* ===== END CONTACTS ===== */
+
+/* ===== FOOTER ===== */
+.footer__text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+}
+
+/* ===== END FOOTER ===== */
